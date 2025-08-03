@@ -16,7 +16,7 @@ const {
 } = require("../controllers/product")
 const { authCheck, adminCheck } = require("../middlewares/authCheck")
 
-// @ENDPOINT http://localhost:3000/api/product
+// @ENDPOINT https://ecom-2025-api.vercel.app/api/product
 // create a new product
 router.post("/product", create)
 
